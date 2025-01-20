@@ -153,9 +153,4 @@ class PositionsController extends Controller
 
         return response()->json(['errors' => ['Position does not exist']], 404);
     }
-
-    public function viewPositionDetails()
-    {
-        
-    }
 }
