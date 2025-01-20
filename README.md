@@ -58,23 +58,21 @@ DB_USERNAME=your_username
 DB_PASSWORD=your_password
 ```
 
-Generate an application key:
+Generate the application key:
 
 ```bash
 php artisan key:generate
 ```
 
-### 4. Setup the Database
-
-Ensure your database is created and run migrations to set up the schema:
+Run migrations:
 
 ```bash
 php artisan migrate
 ```
 
-### 5. Start the Server
+### 4. Start the Server
 
-Run the Laravel development server:
+To run the development server:
 
 ```bash
 php artisan serve
@@ -83,7 +81,7 @@ php artisan serve
 The application will be available at:
 
 ```plaintext
-http://localhost:8000
+http://localhost:8000 or http://127.0.0.1:8000/
 ```
 
 ---
